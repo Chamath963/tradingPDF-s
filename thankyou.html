@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Thank you page for accessing free trading resources from TradeMaster Crypto Signals. Get PDFs, courses, and paid trading signals to elevate your trading experience.">
+    <meta name="keywords" content="trading, crypto, signals, trading PDFs, free course, paid trading signals">
+    <meta name="author" content="TradeMaster">
+    <title>Thank You - TradeMaster Crypto Signals</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Universal reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #2b5876, #4e4376);
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            animation: fadeInDown 1s ease-out;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            font-size: 1.3rem;
+            font-weight: 400;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .container {
+            text-align: center;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 1.5s ease-in;
+        }
+
+        .button-group {
+            margin-top: 20px;
+        }
+
+        .action-btn {
+            background: #ff416c;
+            background: linear-gradient(to right, #ff4b2b, #ff416c);
+            color: white;
+            padding: 15px 40px;
+            font-size: 1.1rem;
+            margin: 10px;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .action-btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Keyframe animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+
+            .header p {
+                font-size: 1.1rem;
+            }
+
+            .action-btn {
+                font-size: 1rem;
+                padding: 12px 30px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Congratulations!</h1>
+        <p>You’ve successfully completed the steps. Choose from the options below to get your free resources.</p>
+    </div>
+
+    <div class="container">
+        <div class="button-group">
+            <button onclick="handleClick('https://t.me/+uB0yRhnQYm5iZGZl')" class="action-btn">Get Free Trading PDFs</button>
+            <button onclick="handleClick('free-trading-course.html')" class="action-btn">Get Free Trading Course</button>
+            <button onclick="handleClick('paid-trading-signals.html')" class="action-btn">Get Paid Trading Signals</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>All content provided by TradeMaster Crypto Signal Service. Join our <a href="https://t.me/yourTelegramLink" style="color: #fff; text-decoration: underline;">Telegram channel</a> for more updates.</p>
+    </footer>
+
+    <script>
+        function handleClick(url) {
+            window.location.href = url;
+            setTimeout(function () {
+                
+            }, 2);
+        }
+    </script>
+</body>
+
+</html>

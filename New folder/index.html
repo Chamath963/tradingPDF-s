@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TradeMaster - Premier Crypto Trading Signals</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Lato:wght@400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <h1>Unlock Elite Trading Knowledge</h1>
+        <p>Join the exclusive community, access top-tier crypto signals and strategies.</p>
+    </div>
+
+    <div class="container">
+        <div id="progress-bar">
+            <div id="progress"></div>
+        </div>
+
+        <form id="userForm">
+            <!-- Step 1: User details -->
+            <div class="form-section" id="section1">
+                <h2>Step 1: Enter Your Information</h2>
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your First Name" required>
+
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Your Last Name" required>
+
+                <label for="whatsapp">WhatsApp Number:</label>
+                <input type="tel" id="whatsapp" name="whatsapp" pattern="[0-9]{10}" placeholder="Your WhatsApp Number" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                <button type="button" id="nextBtn1" class="next-btn" disabled>Next</button>
+            </div>
+
+            <!-- Step 2: Join Telegram group -->
+            <div class="form-section" id="section2" style="display:none;">
+                <h2>Step 2: Join Our VIP Telegram Group</h2>
+                <p>Join our Telegram group for exclusive signals and knowledge.</p>
+                <button type="button" id="joinGroup" class="action-btn" onclick="window.open('https://t.me/TradeMasterCryptoCommunity', '_blank')">Join our Group</button>
+                <button type="button" id="nextBtn2" class="next-btn" disabled>Next</button>
+            </div>
+
+            <!-- Step 3: Share the group link -->
+            <div class="form-section" id="section3" style="display:none;">
+                <h2>Step 3: Share the Group with Friends</h2>
+                <p>Share our group link to grow the community and receive more benefits.</p>
+                <button type="button" id="shareGroup" class="action-btn" onclick="window.open('https://wa.me/?text=$https://t.me/TradeMasterCryptoCommunity', '_blank')">Share Group Link</button>
+                <button type="submit" id="submitBtn" class="submit-btn" onclick="window.location.href='thankyou.html?fish=mackerel'">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>Powered by TradeMaster Crypto - Leading the way in crypto trading excellence.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
